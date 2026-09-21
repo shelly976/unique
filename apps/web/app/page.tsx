@@ -1,5 +1,4 @@
 "use client";
-
 import ReactMarkdown from "react-markdown";
 import axios from "axios";
 import "./app.css";
@@ -31,9 +30,9 @@ export default function App() {
         setRes({});
 
         const response = await axios.get(
-            `http://localhost:3001/weather-ai/${encodeURIComponent(prompt)}`
+            `http://15.206.178.50/weather-ai/${encodeURIComponent(prompt)}`
         );
-
+      
         setRes(response.data);
 
     } catch (error) {

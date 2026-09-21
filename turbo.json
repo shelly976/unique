@@ -18,7 +18,8 @@
       "persistent": true,
       "env": [
         "OPENROUTER_API_KEY",
-        "OPENWEATHER_API_KEY"
+        "OPENWEATHER_API_KEY",
+        "BACKEND_URL"
       ]
     },
     "start": {
