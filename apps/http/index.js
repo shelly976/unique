@@ -1,9 +1,11 @@
 import OpenAI from "openai";
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv";
+// import dotenv from "dotenv";
+// dotenv.config();
 
-dotenv.config({ path: "./.env" });
+// dotenv.config({ path: "./.env" });
+console.log("data : ",process.env.OPENROUTER_API_KEY);
 
 const app = express();
 

@@ -15,11 +15,19 @@
     },
     "dev": {
       "cache": false,
-      "persistent": true
+      "persistent": true,
+      "env": [
+        "OPENROUTER_API_KEY",
+        "OPENWEATHER_API_KEY"
+      ]
     },
     "start": {
       "cache": false,
-      "persistent": true
+      "persistent": true,
+      "env": [
+        "OPENROUTER_API_KEY",
+        "OPENWEATHER_API_KEY"
+      ]
     }
   }
 }
